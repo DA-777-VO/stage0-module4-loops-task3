@@ -4,7 +4,7 @@ public class FibonacciSeries {
     public void printFibonacci(int lastFibonacci) {
 
         int firstTerm = 0, secondTerm = 1;
-        for (int i = 2; i <= lastFibonacci; ++i) {
+        for (int i = 0; i < lastFibonacci; ++i) {
             System.out.println(firstTerm);
             int nextTerm = firstTerm + secondTerm;
             firstTerm = secondTerm;
